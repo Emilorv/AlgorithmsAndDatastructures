@@ -1,4 +1,3 @@
-package Ferdig.Komprimering;
 
 /**
  * Leaf class which extends TreeNode

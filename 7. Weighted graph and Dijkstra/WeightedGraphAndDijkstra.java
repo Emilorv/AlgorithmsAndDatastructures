@@ -10,14 +10,14 @@ public class WeightedGraphAndDijkstra {
         String filnavn= "vg5.txt";
         int startNode =  2;
 
-        Graf graf = new Graf();
+        WGraf graf = new WGraf();
         graf.vektetGrafFraFil(new BufferedReader(new FileReader(filnavn)));
         graf.dijkstra(graf.noder[startNode]);
         System.out.println("Ferdig.Node - Ferdig.Forgjenger - distanse");
         for (int i = 0; i <graf.antNoder ; i++) {
-                if (((Forgjenger) graf.noder[i].d).dist != Forgjenger.uendelig) {
-                    String fra = (graf.noder[i].node == startNode) ? "Start" : String.valueOf(((Forgjenger) graf.noder[i].d).forgjenger.node);
-                    System.out.println(graf.noder[i].node + " - " + fra + " - " + ((Forgjenger) graf.noder[i].d).dist);
+                if (((WForgjenger) graf.noder[i].d).dist != WForgjenger.uendelig) {
+                    String fra = (graf.noder[i].node == startNode) ? "Start" : String.valueOf(((WForgjenger) graf.noder[i].d).forgjenger.node);
+                    System.out.println(graf.noder[i].node + " - " + fra + " - " + ((WForgjenger) graf.noder[i].d).dist);
                 } else {
                     System.out.println(graf.noder[i].node + " - " + " - " + "Nåes ikke");
                 }
@@ -25,17 +25,17 @@ public class WeightedGraphAndDijkstra {
     }
 }
 
-class Graf{
+class WGraf {
     int antNoder, antKanter;
-    Node[] noder;
-    PriorityQueue<Node> prioKo;
+    WNode[] noder;
+    PriorityQueue<WNode> prioKo;
 
     public void vektetGrafFraFil(BufferedReader br)throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine());
         antNoder =Integer.parseInt(st.nextToken());
-        noder = new Node[antNoder];
+        noder = new WNode[antNoder];
         for (int i = 0; i < antNoder; i++){
-            noder[i] = new Node();
+            noder[i] = new WNode();
             noder[i].node = i;
         }
         antKanter = Integer.parseInt(st.nextToken());
@@ -49,15 +49,15 @@ class Graf{
         }
     }
 
-    public void initforgj(Node s ){
+    public void initforgj(WNode s ){
         for (int i =antNoder; --i>=0;) {
-            noder[i].d = new Forgjenger();
+            noder[i].d = new WForgjenger();
         }
-        ((Forgjenger)s.d).dist = 0;
+        ((WForgjenger)s.d).dist = 0;
     }
 
-    void forkort(Node n, Vkant k){
-        Forgjenger nd = (Forgjenger)n.d, md = (Forgjenger)k.til.d;
+    void forkort(WNode n, Vkant k){
+        WForgjenger nd = (WForgjenger)n.d, md = (WForgjenger)k.til.d;
         if(md.dist>nd.dist+k.vekt){
             md.dist= nd.dist+k.vekt;
             md.forgjenger = n;
@@ -66,11 +66,11 @@ class Graf{
         }
     }
 
-    void dijkstra(Node s){
+    void dijkstra(WNode s){
         initforgj(s);
         lag_prioko();
         for (int i = antNoder; i-->0;) {
-            Node n = prioKo.poll();
+            WNode n = prioKo.poll();
             for(Vkant k = (Vkant)n.kant; k!=null; k = (Vkant) k.neste)
                 forkort(n,k);
         }
@@ -78,7 +78,7 @@ class Graf{
 
 
     public void lag_prioko() {
-        this.prioKo = new PriorityQueue<>(antNoder, Comparator.comparingInt(node -> ((Forgjenger) node.d).dist));
+        this.prioKo = new PriorityQueue<>(antNoder, Comparator.comparingInt(node -> ((WForgjenger) node.d).dist));
         for (int i = 0; i < antNoder; i++) {
             prioKo.add(noder[i]);
         }
@@ -86,41 +86,41 @@ class Graf{
 
 }
 
-class Kant{
-    Node til;
-    Kant neste;
+class WKant {
+    WNode til;
+    WKant neste;
 
 
-    public Kant(Node til, Kant neste){
+    public WKant(WNode til, WKant neste){
         this.til = til;
         this.neste = neste;
     }
 }
 
-class Vkant extends Kant{
+class Vkant extends WKant {
     int vekt;
-    public Vkant(Node n, Vkant neste, int vekt){
+    public Vkant(WNode n, Vkant neste, int vekt){
         super(n, neste);
         this.vekt = vekt;
     }
 }
 
-class Node {
+class WNode {
     int node;
-    Kant kant;
+    WKant kant;
     Object d;
 
-    public Node() {
+    public WNode() {
 
     }
 }
 
-class Forgjenger{
+class WForgjenger {
     int dist;
-    Node forgjenger;
+    WNode forgjenger;
     static int uendelig = 10000000;
 
-    public Forgjenger(){
+    public WForgjenger(){
         dist=uendelig;
     }
 

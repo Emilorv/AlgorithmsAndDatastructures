@@ -1,5 +1,3 @@
-package Ferdig.Komprimering;
-
 import java.io.*;
 import java.util.ArrayList;
 

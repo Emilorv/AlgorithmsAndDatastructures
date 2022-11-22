@@ -1,4 +1,3 @@
-package Ferdig;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -97,7 +96,7 @@ public class HashtableNames {
     public static ArrayList<String> ReadFromFile() {
         ArrayList<String> dataList = new ArrayList<>();
         try {
-            File myObj = new File("Ferdig/navn.txt");
+            File myObj = new File("navn.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();

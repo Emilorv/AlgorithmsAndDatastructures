@@ -1,4 +1,3 @@
-package Ferdig.Komprimering;
 
 /**
  * TreeNode class

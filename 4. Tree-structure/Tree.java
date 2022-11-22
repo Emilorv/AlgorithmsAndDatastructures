@@ -1,4 +1,4 @@
-package Ferdig; /**
+ /**
  * @author Ann-Marie A.F. Revillard og Emil Orvik Olsson
  */
 

@@ -1,5 +1,3 @@
-package Ferdig;
-
 public class LinkedListMath {
 
     public static void main(String[] args) {

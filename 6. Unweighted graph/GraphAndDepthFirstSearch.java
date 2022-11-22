@@ -181,7 +181,7 @@ class Forgjenger{
 
 }
 
-class DFS_forgjenger extends Forgjenger{
+class DFS_forgjenger extends Forgjenger {
     int funnet_tid, ferdig_tid;
     static int tid;
     static void null_tid(){tid=0;}

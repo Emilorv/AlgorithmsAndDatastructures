@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f751ab9-22ab-4b72-84ec-0df44d7ec16f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/AlgorithmsAndDatastructures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1. Stockprogram/1. Stockprogram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1. Stockprogram/out/production/1. Stockprogram/1. Stockprogram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. Recursion and MathPower/2. Recursion and MathPower.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2. Recursion and MathPower/out/production/2. Recursion and MathPower/Ferdig/2. Recursion and MathPower.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. LecturerQuicksort vs InternetQuicksort/3. LecturerQuicksort vs InternetQuicksort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. LecturerQuicksort vs InternetQuicksort/out/production/3. LecturerQuicksort vs InternetQuicksort/3. LecturerQuicksort vs InternetQuicksort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. LinkedList/4. LinkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. LinkedList/out/production/4. LinkedList/4. LinkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Tree-structure/4. Tree-structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. Tree-structure/out/production/4. Tree-structure/4. Tree-structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Hashtable/5. Hashtable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5. Hashtable/out/production/5. Hashtable/5. Hashtable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/6. Unweighted graph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/out/production/6. Unweighted graph/6. Unweighted graph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/ø6g1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/ø6g2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/ø6g5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6. Unweighted graph/ø6g6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Weighted graph and Dijkstra/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Weighted graph and Dijkstra/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Weighted graph and Dijkstra/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Weighted graph and Dijkstra/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Weighted graph and Dijkstra/7. Weighted graph and Dijkstra.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. Stockprogram/StockProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Stockprogram/StockProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. LecturerQuicksort vs InternetQuicksort/SortProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. LecturerQuicksort vs InternetQuicksort/SortProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4. LinkedList/LinkedListMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4. LinkedList/LinkedListMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4. Tree-structure/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4. Tree-structure/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5. Hashtable/HashtableNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Hashtable/HashtableNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5. Hashtable/HashtableTimeTaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5. Hashtable/HashtableTimeTaking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6. Unweighted graph/GraphAndDepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6. Unweighted graph/GraphAndDepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7. Weighted graph and Dijkstra/WeightedGraphAndDijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../7. Weighted graph and Dijkstra/WeightedGraphAndDijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/CompressClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/CompressClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Compression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Compression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Decompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Decompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Leaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/LempelZivDekomprimering.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/LempelZivDekomprimering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/LempelZivKomprimering.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/LempelZivKomprimering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8. Lempel-Ziv And Huffman Compression/TreeNode.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2HusUqdCHhVD7t9V96cKSaYSTAt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f751ab9-22ab-4b72-84ec-0df44d7ec16f" name="Changes" comment="" />
+      <created>1669146321445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669146321445</updated>
+      <workItem from="1669146322545" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

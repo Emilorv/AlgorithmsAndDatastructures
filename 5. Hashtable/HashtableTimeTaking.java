@@ -1,5 +1,3 @@
-package Ferdig;
-
 import java.util.*;
 
 public class HashtableTimeTaking {
